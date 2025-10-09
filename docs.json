@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Fever Control Room",
+  "name": "Fever Product Playbook",
   "colors": {
     "primary": "#FF5035",
     "light": "#F5F5F7",
     "dark": "#151515"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://www.fever.energy/icon0.svg",
   "navigation": {
     "tabs": [
       {
