@@ -74,14 +74,14 @@
     }
   },
   "logo": {
-    "light": "https://cdn.prod.website-files.com/67cdd304497393c705d6d8c3/67cdd304497393c705d6d8f1_logo-nav.svg",
-    "dark": "https://cdn.prod.website-files.com/67cdd304497393c705d6d8c3/67cdd304497393c705d6d8f1_logo-nav.svg"
+    "light": "images/Fever_wordmark_black.png",
+    "dark": "images/Fever_wordmark_neg.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://fever.energy/contact"
       }
     ],
     "primary": {
