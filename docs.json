@@ -74,8 +74,8 @@
     }
   },
   "logo": {
-    "light": "images/Fever_wordmark_black.png",
-    "dark": "images/Fever_wordmark_neg.png"
+    "light": "logo/dark-logo.png",
+    "dark": "logo/light-logo.png"
   },
   "navbar": {
     "links": [
