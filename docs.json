@@ -22,7 +22,9 @@
           {
             "group": "Products",
             "pages": [
-              "espen"
+              "espen",
+              "savings-pack",
+              "earnings-pack"
             ]
           }
         ]
