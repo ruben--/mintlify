@@ -24,7 +24,10 @@
             "pages": [
               "espen",
               "savings-pack",
-              "earnings-pack"
+              "earnings-pack",
+              "smart-charging",
+              "magic-charging",
+              "stoploss"
             ]
           }
         ]

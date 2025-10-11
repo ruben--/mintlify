@@ -92,6 +92,313 @@ Provide capacity to commercial or industrial clients during peak demand periods,
 
 ---
 
+## Front-of-the-Meter Optimization: Real Examples
+
+Here's exactly how Earnings Pack generates revenue from your battery across different market opportunities.
+
+### Example 1: Energy Arbitrage in Action
+
+**Scenario:** A 15 kWh residential battery in Stockholm participating in Nord Pool day-ahead and intraday markets.
+
+**What Earnings Pack Does:**
+
+<Steps>
+  <Step title="Day-ahead market analysis (10:00 previous day)">
+    Earnings Pack analyzes tomorrow's hourly price forecast:\
+    **Lowest price:** 0.32 kr/kWh at 03:00\
+    **Highest price:** 2.48 kr/kWh at 18:00\
+    **Spread:** 2.16 kr/kWh — excellent arbitrage opportunity
+  </Step>
+  <Step title="03:00 - Buy low">
+    **Price: 0.32 kr/kWh**\
+    Battery charges from grid at 5 kW for 3 hours.\
+    **Energy purchased:** 15 kWh\
+    **Cost:** 15 kWh × 0.32 kr/kWh = **4.80 kr**
+  </Step>
+  <Step title="13:00 - Intraday price spike detected">
+    **Forecasted 18:00 price dropped to 1.95 kr/kWh, but intraday shows 2.15 kr/kWh available now**\
+    Earnings Pack pivots strategy: discharge 5 kWh now instead of waiting.\
+    **Revenue:** 5 kWh × 2.15 kr/kWh = **10.75 kr**
+  </Step>
+  <Step title="18:00 - Evening peak discharge">
+    **Price: 1.95 kr/kWh**\
+    Battery discharges remaining 10 kWh to grid.\
+    **Revenue:** 10 kWh × 1.95 kr/kWh = **19.50 kr**
+  </Step>
+  <Step title="Daily arbitrage result">
+    **Total revenue:** 10.75 kr + 19.50 kr = **30.25 kr**\
+    **Total cost:** 4.80 kr\
+    **Net profit:** **25.45 kr per day**\
+    **Monthly profit:** ~**763 kr**\
+    **Annual profit:** ~**9,290 kr**
+  </Step>
+</Steps>
+
+**Key Insight:** Earnings Pack dynamically adjusts to intraday opportunities, capturing an extra 0.20 kr/kWh on 5 kWh that wasn't visible in day-ahead forecasts.
+
+---
+
+### Example 2: FCR-D (Frequency Containment Reserve - Disturbance)
+
+**Scenario:** A 20 kWh commercial battery qualified for FCR-D, providing grid stabilization during frequency disturbances.
+
+**What Earnings Pack Does:**
+
+<Steps>
+  <Step title="Market bidding (12:00 previous day)">
+    Earnings Pack bids 18 kWh capacity into FCR-D for tomorrow (reserving 2 kWh for backup).\
+    **Bid accepted:** 18 kWh at **185 kr/MW/hour**\
+    **Daily capacity payment:** 18 kWh × 0.018 MW/kWh × 185 kr/MW/h × 24h = **143.64 kr guaranteed**
+  </Step>
+  <Step title="09:23 - Frequency disturbance event">
+    **Grid frequency drops to 49.85 Hz** (normal is 50 Hz)\
+    Earnings Pack automatically injects 18 kW into grid within 2 seconds.\
+    Battery discharges for 8 minutes until frequency stabilizes.\
+    **Energy delivered:** 2.4 kWh\
+    **Activation payment:** 2.4 kWh × **3.20 kr/kWh** = **7.68 kr**
+  </Step>
+  <Step title="14:47 - Second disturbance event">
+    **Grid frequency spikes to 50.12 Hz**\
+    Battery absorbs 18 kW from grid for 5 minutes.\
+    **Energy absorbed:** 1.5 kWh\
+    **Activation payment:** 1.5 kWh × **3.20 kr/kWh** = **4.80 kr**
+  </Step>
+  <Step title="18:30 - Opportunity arbitrage">
+    Battery state-of-charge: 65% (13 kWh). FCR-D only requires capacity availability, not specific charge level.\
+    Spot price hits 2.35 kr/kWh. Earnings Pack discharges 3 kWh to capture arbitrage while maintaining FCR-D readiness.\
+    **Arbitrage revenue:** 3 kWh × 2.35 kr/kWh = **7.05 kr**
+  </Step>
+  <Step title="Daily FCR-D result">
+    **Capacity payment:** 143.64 kr (guaranteed)\
+    **Activation payments:** 7.68 kr + 4.80 kr = **12.48 kr**\
+    **Bonus arbitrage:** 7.05 kr\
+    **Total daily revenue:** **163.17 kr**\
+    **Monthly revenue:** ~**4,895 kr**\
+    **Annual revenue:** ~**59,558 kr** (for 20 kWh battery)
+  </Step>
+</Steps>
+
+**Key Insight:** FCR-D provides guaranteed capacity payments regardless of activation, plus additional revenue when activated. Earnings Pack also stacks arbitrage opportunities when battery state-of-charge allows.
+
+---
+
+### Example 3: FCR-N (Frequency Containment Reserve - Normal)
+
+**Scenario:** A 15 kWh residential battery providing continuous automatic frequency regulation.
+
+**What Earnings Pack Does:**
+
+<Steps>
+  <Step title="Market bidding (12:00 previous day)">
+    Earnings Pack bids 12 kWh symmetric capacity into FCR-N (±12 kW).\
+    Battery must maintain 50% state-of-charge (7.5 kWh) to provide both upward and downward regulation.\
+    **Bid accepted:** 12 kWh at **245 kr/MW/hour**\
+    **Daily capacity payment:** 12 kWh × 0.012 MW/kWh × 245 kr/MW/h × 24h = **84.67 kr guaranteed**
+  </Step>
+  <Step title="Continuous automatic regulation (00:00-24:00)">
+    Battery responds automatically to grid frequency deviations hundreds of times per day:\
+    - **Frequency 49.99 Hz:** Battery injects 3 kW\
+    - **Frequency 50.01 Hz:** Battery absorbs 4 kW\
+    - **Frequency 50.00 Hz:** Battery neutral\
+    This happens continuously, autonomously, with no manual intervention.
+  </Step>
+  <Step title="Energy balancing throughout the day">
+    Total upward regulation: 18 kWh injected\
+    Total downward regulation: 17 kWh absorbed\
+    **Net energy balance:** -1 kWh (needs slight recharge)\
+    **Energy settlement:** 18 kWh × 1.15 kr/kWh (avg spot) - 17 kWh × 1.18 kr/kWh = **0.64 kr net cost**
+  </Step>
+  <Step title="02:30 - Rebalancing">
+    Battery at 45% state-of-charge after net upward regulation. Below optimal 50% center point.\
+    Earnings Pack charges 0.75 kWh at cheap night rate (0.38 kr/kWh) to return to 50%.\
+    **Rebalancing cost:** 0.75 kWh × 0.38 kr/kWh = **0.29 kr**
+  </Step>
+  <Step title="Daily FCR-N result">
+    **Capacity payment:** 84.67 kr (guaranteed)\
+    **Energy settlement cost:** -0.64 kr\
+    **Rebalancing cost:** -0.29 kr\
+    **Net daily revenue:** **83.74 kr**\
+    **Monthly revenue:** ~**2,512 kr**\
+    **Annual revenue:** ~**30,565 kr** (for 12 kWh committed capacity)
+  </Step>
+</Steps>
+
+**Key Insight:** FCR-N provides the highest guaranteed capacity payments but requires maintaining 50% state-of-charge and symmetric capacity. Earnings Pack continuously rebalances to minimize energy costs while maximizing availability.
+
+---
+
+### Example 4: mFRR (Manual Frequency Restoration Reserve)
+
+**Scenario:** A 100 kWh commercial battery providing manual frequency restoration services.
+
+**What Earnings Pack Does:**
+
+<Steps>
+  <Step title="Market bidding (09:00 same day)">
+    Earnings Pack bids 90 kWh capacity into mFRR for specific hours when prices are attractive.\
+    **Bid accepted for 16:00-20:00:** 90 kWh at **125 kr/MW/hour**\
+    **4-hour capacity payment:** 90 kWh × 0.09 MW/kWh × 125 kr/MW/h × 4h = **405 kr guaranteed**
+  </Step>
+  <Step title="16:00-18:00 - Standby (no activation)">
+    Battery maintains readiness at 60% state-of-charge (60 kWh).\
+    No dispatch signals received. Battery earns capacity payment with zero activations.\
+    **Revenue so far:** Capacity payments only.
+  </Step>
+  <Step title="18:23 - Dispatch signal received">
+    Grid operator requests 90 kW discharge for 45 minutes to address frequency imbalance.\
+    **Energy delivered:** 67.5 kWh\
+    **Activation price:** 4.85 kr/kWh (set by mFRR market clearing)\
+    **Activation revenue:** 67.5 kWh × 4.85 kr/kWh = **327.38 kr**
+  </Step>
+  <Step title="19:15 - Activation complete, recharge opportunity">
+    Battery at 15% state-of-charge after dispatch. Spot price: 1.65 kr/kWh.\
+    Earnings Pack recharges 60 kWh to 75% over next 90 minutes.\
+    **Recharge cost:** 60 kWh × 1.65 kr/kWh = **99 kr**
+  </Step>
+  <Step title="4-hour mFRR result">
+    **Capacity payment:** 405 kr (guaranteed)\
+    **Activation revenue:** 327.38 kr\
+    **Recharge cost:** -99 kr\
+    **Net revenue (4 hours):** **633.38 kr**\
+    **Extrapolated daily revenue (if repeated):** ~**3,800 kr**\
+    **Monthly revenue (selective participation):** ~**45,000 kr**\
+    **Annual revenue:** ~**540,000 kr** (for 100 kWh battery)
+  </Step>
+</Steps>
+
+**Key Insight:** mFRR offers the highest activation payments but requires fast response to manual dispatch signals. Earnings Pack selectively participates during high-price hours and manages recharging costs intelligently.
+
+---
+
+### Example 5: Multi-Market Optimization (Arbitrage + FCR-D Stack)
+
+**Scenario:** A 20 kWh battery using Earnings Pack's intelligent market stacking to maximize revenue across arbitrage and FCR-D simultaneously.
+
+**What Earnings Pack Does:**
+
+<Steps>
+  <Step title="Daily strategy optimization (10:00 previous day)">
+    Earnings Pack analyzes:\
+    - **FCR-D capacity price:** 165 kr/MW/hour (moderate)\
+    - **Spot price spread:** 0.42 kr/kWh → 2.15 kr/kWh (1.73 kr/kWh spread — good)\
+    **Decision:** Commit 12 kWh to FCR-D, reserve 8 kWh for pure arbitrage
+  </Step>
+  <Step title="03:00 - Arbitrage: Buy low">
+    **Price: 0.42 kr/kWh**\
+    Charge 8 kWh arbitrage capacity from grid.\
+    **Cost:** 8 kWh × 0.42 kr/kWh = **3.36 kr**\
+    FCR-D capacity maintained at 50% state-of-charge independently.
+  </Step>
+  <Step title="11:30 - FCR-D activation">
+    Grid frequency drops. 12 kWh FCR-D capacity injects 10 kW for 6 minutes.\
+    **Energy delivered:** 1 kWh\
+    **Activation payment:** 1 kWh × 3.20 kr/kWh = **3.20 kr**
+  </Step>
+  <Step title="18:00 - Arbitrage: Sell high">
+    **Price: 2.15 kr/kWh**\
+    Discharge 8 kWh arbitrage capacity to grid.\
+    **Revenue:** 8 kWh × 2.15 kr/kWh = **17.20 kr**\
+    FCR-D capacity still operational and earning.
+  </Step>
+  <Step title="Daily multi-market result">
+    **FCR-D capacity payment:** 12 kWh × 0.012 MW/kWh × 165 kr/MW/h × 24h = **47.52 kr**\
+    **FCR-D activation:** 3.20 kr\
+    **Arbitrage revenue:** 17.20 kr - 3.36 kr = **13.84 kr**\
+    **Total daily revenue:** **64.56 kr**\
+    **Monthly revenue:** ~**1,937 kr**\
+    **Annual revenue:** ~**23,564 kr** (for 20 kWh battery)
+  </Step>
+</Steps>
+
+**Key Insight:** Earnings Pack's Multi-Market Optimization intelligently splits battery capacity across multiple revenue streams, earning from both guaranteed grid service payments AND arbitrage spreads simultaneously—dramatically outperforming single-service strategies.
+
+---
+
+## Multi-Market Optimization (MMO): Fever's Competitive Advantage
+
+Fever's proprietary **Multi-Market Optimization (MMO)** engine is what sets Earnings Pack apart from single-service competitors. Instead of committing your entire battery to one market for the entire day, MMO continuously evaluates all available opportunities and dynamically allocates your capacity to maximize returns.
+
+### How MMO Works
+
+<Steps>
+  <Step title="Real-time market analysis">
+    Every hour, MMO analyzes current and forecasted prices across:\
+    - **FCR-D** capacity and activation markets\
+    - **FCR-N** capacity and energy settlement\
+    - **mFRR** capacity bids and dispatch probability\
+    - **Nord Pool spot** day-ahead and intraday arbitrage spreads\
+    - **Peak shaving** demand response opportunities\
+    Based on historical patterns, weather forecasts, and grid conditions.
+  </Step>
+  <Step title="Risk-adjusted revenue forecasting">
+    MMO calculates expected revenue for each market considering:\
+    - **Guaranteed payments** (capacity)\
+    - **Probabilistic payments** (activation likelihood × activation price)\
+    - **Opportunity costs** (committing to one market blocks others)\
+    - **Rebalancing costs** (energy needed to maintain state-of-charge requirements)\
+    - **Battery health impact** (cycle depth, temperature, degradation)
+  </Step>
+  <Step title="Dynamic capacity allocation">
+    MMO splits your battery capacity optimally across multiple markets:\
+    - 60% to FCR-N (highest guaranteed capacity payment today)\
+    - 30% to arbitrage (excellent price spread forecasted)\
+    - 10% reserved (for emergency backup or opportunistic trades)\
+    This allocation updates hourly as market conditions change.
+  </Step>
+  <Step title="Continuous re-optimization">
+    Throughout the day, MMO monitors:\
+    - Actual vs. forecasted market prices\
+    - Unexpected intraday opportunities\
+    - Grid events affecting activation probability\
+    - Battery state-of-charge and available capacity\
+    If a better opportunity emerges, MMO reallocates instantly.
+  </Step>
+</Steps>
+
+### Real Example: MMO in Action Over 24 Hours
+
+**Scenario:** 20 kWh residential battery on a volatile price day in Stockholm.
+
+| Time Period | MMO Decision | Revenue Generated | Why This Choice? |
+|-------------|--------------|-------------------|------------------|
+| **00:00-06:00** | 100% FCR-N | 21.17 kr capacity | Overnight: highest capacity payment, minimal arbitrage spread (0.38-0.45 kr/kWh) |
+| **06:00-08:00** | 70% FCR-N, 30% arbitrage | 9.88 kr FCR-N + 4.20 kr arbitrage | Morning: FCR-N still high, but prices rising—reserve capacity for peak discharge |
+| **08:00-12:00** | 50% FCR-N, 50% standby | 14.56 kr FCR-N | Midday: FCR-N capacity high, but arbitrage spread low. Hold capacity for afternoon peak forecast |
+| **12:00-13:00** | Pivot: 100% intraday arbitrage | 18.40 kr arbitrage | **Unexpected intraday spike to 2.85 kr/kWh detected!** MMO pivots entire capacity to capture profit |
+| **13:00-16:00** | Recharge + 80% FCR-D | -2.10 kr recharge + 18.24 kr FCR-D | Battery depleted from arbitrage. Cheap recharge at 0.70 kr/kWh, commit to FCR-D for evening |
+| **16:00-20:00** | 80% FCR-D, 20% peak shaving | 24.36 kr FCR-D + 12.80 kr peak shaving | Evening: FCR-D attractive + local demand response opportunity. Stack both! |
+| **20:00-00:00** | 100% arbitrage standby | 8.60 kr arbitrage | Late night: discharge remaining capacity during moderate peak (1.45 kr/kWh) |
+
+**Total 24-hour revenue:** **129.91 kr**
+
+**Comparison to single-service strategies:**
+- **FCR-N only (all day):** 84.67 kr (35% less)
+- **FCR-D only (all day):** 71.82 kr (45% less)
+- **Arbitrage only (all day):** 38.20 kr (71% less)
+
+**MMO advantage:** **+53% to +240% higher revenue** by intelligently switching markets throughout the day.
+
+---
+
+### Why MMO Beats Static Strategies
+
+<CardGroup cols={2}>
+  <Card title="Markets Change Constantly" icon="chart-line-up">
+    FCR-D might be lucrative in the morning but drop by afternoon. Arbitrage spreads can spike unexpectedly. MMO adapts in real-time instead of being locked into yesterday's decision.
+  </Card>
+  <Card title="Revenue Stacking" icon="layer-group">
+    Some markets can run simultaneously (FCR-D + arbitrage, FCR-N + peak shaving). MMO identifies compatible combinations and stacks them for multiplicative gains.
+  </Card>
+  <Card title="Risk Diversification" icon="shield-check">
+    Relying on one market exposes you to price crashes. MMO spreads risk across multiple revenue streams, ensuring consistent income even when individual markets underperform.
+  </Card>
+  <Card title="Battery Health Optimization" icon="heart-pulse">
+    MMO considers cycle depth, temperature, and degradation. It avoids deep cycles during low-value periods and reserves battery health for high-value opportunities.
+  </Card>
+</CardGroup>
+
+---
+
 ## The Earnings Pack Dashboard: Your Trading Command Center
 
 Everything is automated, but you maintain complete visibility and control. The Earnings Pack dashboard shows exactly how your battery is earning across all markets.
