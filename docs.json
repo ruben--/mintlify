@@ -27,7 +27,13 @@
               "earnings-pack",
               "smart-charging",
               "magic-charging",
-              "stoploss"
+              "stoploss",
+              "time-of-use-tariff-optimisation",
+              "peak-shaving-load-shifting",
+              "self-consumption-maximisation",
+              "real-time-wholesale-price-arbitrage",
+              "carbon-intensity-optimisation",
+              "backup-resilience-optimisation"
             ]
           }
         ]
