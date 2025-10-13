@@ -20,20 +20,25 @@
             ]
           },
           {
-            "group": "Products",
+            "group": "Savings Pack",
             "pages": [
               "espen",
               "savings-pack",
-              "earnings-pack",
               "smart-charging",
-              "magic-charging",
               "stoploss",
               "time-of-use-tariff-optimisation",
               "peak-shaving-load-shifting",
               "self-consumption-maximisation",
-              "real-time-wholesale-price-arbitrage",
               "carbon-intensity-optimisation",
               "backup-resilience-optimisation"
+            ]
+          },
+          {
+            "group": "Earnings Pack",
+            "pages": [
+              "earnings-pack",
+              "magic-charging",
+              "real-time-wholesale-price-arbitrage"
             ]
           }
         ]
