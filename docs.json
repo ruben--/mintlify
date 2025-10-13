@@ -14,15 +14,14 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Hardware",
             "pages": [
-              "index"
+              "espen"
             ]
           },
           {
-            "group": "Savings Pack",
+            "group": "Savings pack",
             "pages": [
-              "espen",
               "savings-pack",
               "smart-charging",
               "stoploss",
@@ -34,7 +33,7 @@
             ]
           },
           {
-            "group": "Earnings Pack",
+            "group": "Earnings pack",
             "pages": [
               "earnings-pack",
               "magic-charging",
