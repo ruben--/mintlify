@@ -23,27 +23,33 @@
             "group": "Savings Pack",
             "icon": "piggy-bank",
             "pages": [
+              "savings-pack",
               {
-                "group": "Cut your energy bill",
-                "icon": "scissors",
+                "group": "Smart bill control",
+                "icon": "gauge",
                 "pages": [
-                  "savings-pack",
                   "smart-charging",
-                  "magic-charging",
-                  "stoploss",
                   "time-of-use-tariff-optimisation"
                 ]
               },
               {
-                "group": "Use what you generate",
-                "icon": "house",
+                "group": "Solar & storage",
+                "icon": "sun",
                 "pages": [
-                  "peak-shaving-load-shifting",
                   "self-consumption-maximisation",
-                  "backup-resilience-optimisation",
+                  "peak-shaving-load-shifting",
+                  "backup-resilience-optimisation"
+                ]
+              },
+              {
+                "group": "Protection & sustainability",
+                "icon": "shield",
+                "pages": [
+                  "stoploss",
                   "carbon-intensity-optimisation"
                 ]
-              }
+              },
+              "magic-charging"
             ]
           },
           {
@@ -52,7 +58,7 @@
             "pages": [
               "earnings-pack",
               {
-                "group": "Get paid for stability",
+                "group": "Grid balancing",
                 "icon": "activity",
                 "pages": [
                   "fcr-d",
@@ -61,8 +67,8 @@
                 ]
               },
               {
-                "group": "Trade on price swings",
-                "icon": "arrows-up-down",
+                "group": "Market trading",
+                "icon": "trending-up",
                 "pages": [
                   "real-time-wholesale-price-arbitrage",
                   "intraday-optimisation",
