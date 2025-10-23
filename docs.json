@@ -14,37 +14,36 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Hardware",
+            "group": "Hardware & Integrations",
             "pages": [
               "espen"
             ]
           },
           {
-            "group": "Savings pack",
+            "group": "Savings Pack",
             "pages": [
               "savings-pack",
               "smart-charging",
+              "magic-charging",
               "stoploss",
               "time-of-use-tariff-optimisation",
               "peak-shaving-load-shifting",
               "self-consumption-maximisation",
+              "real-time-wholesale-price-arbitrage",
               "carbon-intensity-optimisation",
-              "backup-resilience-optimisation",
+              "backup-resilience-optimisation"
+            ]
+          },
+          {
+            "group": "Earnings Pack",
+            "pages": [
+              "earnings-pack",
               "fcr-d",
               "fcr-n",
               "mfrr",
               "intraday-optimisation",
               "brp-flex",
               "ftm-optimisation"
-            ]
-          },
-          {
-            "group": "Earnings pack",
-            "pages": [
-              "earnings-pack",
-              "grid-flexibility-services",
-              "magic-charging",
-              "real-time-wholesale-price-arbitrage"
             ]
           }
         ]
