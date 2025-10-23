@@ -1,0 +1,152 @@
+---
+title: "FCR-D"
+description: "Monetize fast-response battery capacity with Fever’s automated Frequency Containment Reserve (Disturbance) trading."
+icon: "wave-square"
+noindex: "true"
+---
+
+# Turn Grid Instability Into Guaranteed Revenue.
+
+**FCR-D. Automated disturbance-response earnings for qualified batteries.**
+
+<img
+  src="/images/hero-dark.png"
+  alt="Battery participating in FCR-D providing fast frequency response"
+  noZoom={true}
+  height="300"
+  className="rounded-xl"
+/>
+
+FCR-D is the Nordic grid’s fast-response safety net. Fever turns it into a reliable revenue stream by qualifying your battery, monitoring capacity prices, and dispatching within milliseconds when frequency dips.
+
+For asset owners, providing disturbance reserve used to mean navigating complex technical rules, manual bidding, and 24/7 availability commitments.
+
+Fever automates the entire stack—qualification, bidding, activation, and settlement—so every kilowatt of reserve capacity is monetized without additional operational overhead.
+
+---
+
+## Who it’s for
+
+Ideal for **commercial and industrial sites**, **multi-site aggregators**, and **large residential batteries** (≥10 kW) in the Nordics that can sustain rapid discharge on short notice and want to stack guaranteed income on top of other optimisation strategies.
+
+---
+
+## How FCR-D makes it happen
+
+### ⚡ It guarantees ultra-fast response
+Fever’s control stack keeps your asset within FCR-D readiness parameters and reacts in <1 second to frequency deviations.\
+**Result:** you meet Fingrid/Svenska kraftnät compliance on every activation.
+
+### 💰 It locks in premium capacity payments
+Daily price forecasts identify the highest-paying FCR-D windows. Fever bids your available capacity and reserves it automatically.\
+**Result:** predictable revenue, paid whether or not an activation occurs.
+
+### 🧠 It stacks markets intelligently
+FCR-D availability is balanced with arbitrage, peak shaving, and backup needs on an hour-by-hour basis.\
+**Result:** maximum asset utilization without violating reserve commitments.
+
+---
+
+## How it works: Automated reserve orchestration
+
+![Diagram showing FCR-D signal triggering battery discharge through Fever’s control engine.](/images/hero-light.png)
+
+<Steps>
+  <Step title="Qualify & configure">
+    Fever audits battery specifications, verifies telemetry latency, and files market participation paperwork. Control limits are configured to maintain state-of-charge within the reserve band.
+  </Step>
+  <Step title="Price & availability forecasting">
+    Day-ahead and intraday capacity prices are modelled against your asset’s availability to determine optimal hourly bids while preserving other commitments (backup, peak shaving, etc.).
+  </Step>
+  <Step title="Automated bidding">
+    Fever submits capacity bids via the TSO interface and monitors acceptance. Confirmed bids lock the reserved energy window and update the live operations console.
+  </Step>
+  <Step title="Activation & settlement">
+    When frequency breaches 49.90 Hz, Fever dispatches the battery in milliseconds, logs delivery, and reconciles capacity plus activation payments with transparent reporting.
+  </Step>
+</Steps>
+
+---
+
+## Revenue snapshot: 50 kW commercial battery (24h window)
+
+| Hour block | Capacity price (kr/MW/h) | Reserved capacity | Daily capacity revenue |
+| ---------- | ------------------------ | ----------------- | ---------------------- |
+| 00:00–06:00 | 142 | 0.05 MW | 42.60 kr |
+| 06:00–12:00 | 118 | 0.05 MW | 35.40 kr |
+| 12:00–18:00 | 165 | 0.05 MW | 49.50 kr |
+| 18:00–24:00 | 178 | 0.05 MW | 53.40 kr |
+| **Total (no activation)** |  |  | **180.90 kr/day** |
+
+<success>
+  **Activation bonus:** On a disturbance event, a 50 kW discharge for 8 minutes at 2.5 kr/kWh adds **16.70 kr** incremental revenue for that day.
+</success>
+
+---
+
+## Compliance & technical guardrails
+
+<CardGroup cols={2}>
+  <Card title="Latency" icon="bolt">
+    Sub-second telemetry via secure MQTT/IEC 61850 links ensures dispatch within TSO tolerance.
+  </Card>
+  <Card title="Availability" icon="clock">
+    Fever maintains a 94–98% availability track record by forecasting maintenance windows and weather-driven limitations.
+  </Card>
+  <Card title="State-of-charge" icon="battery-bolt">
+    Dynamic SOC banding keeps assets within ±50% to guarantee symmetric response while still enabling arbitrage slices.
+  </Card>
+  <Card title="Audit trail" icon="file-invoice">
+    Every activation is logged with millisecond resolution for regulator audits and settlement validation.
+  </Card>
+</CardGroup>
+
+---
+
+## Real customer outcome: Logistics hub in Gothenburg
+
+<Steps>
+  <Step title="Site profile">
+    80 kW/160 kWh lithium-ion battery supporting peak shaving. Fever qualified it for FCR-D with no hardware changes.
+  </Step>
+  <Step title="Stacked value">
+    60 kW committed to FCR-D, 20 kW reserved for on-site backup. Arbitrage executed in off-peak hours without breaching reserve limits.
+  </Step>
+  <Step title="Monthly results">
+    **Capacity revenue:** 11,200 kr\
+    **Activation revenue:** 1,050 kr\
+    **Peak shaving savings preserved:** 4,300 kr
+  </Step>
+</Steps>
+
+---
+
+## Frequently asked questions
+
+<AccordionGroup>
+  <Accordion title="What is the minimum system size?">
+    Fever typically onboards systems ≥10 kW with at least 20 kWh usable capacity. Smaller batteries can participate through our aggregation pool.
+  </Accordion>
+  <Accordion title="Can I exit the market on short notice?">
+    Yes. Availability can be toggled daily. Fever maintains fallback schedules so you can pause participation for maintenance or operational needs.
+  </Accordion>
+  <Accordion title="Does FCR-D limit my ability to provide backup power?">
+    No. Reserve bands are configured to keep sufficient headroom for backup commitments. When backup mode engages, Fever automatically drops FCR-D bids.
+  </Accordion>
+  <Accordion title="How are payments handled?">
+    Fever invoices the TSO on your behalf, deducts the service fee, and remits net revenue monthly with full transparency.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Get started with FCR-D
+
+<CardGroup cols={2}>
+  <Card title="Qualify my asset" icon="check" href="/get-started">
+    Submit your battery specs and telemetry endpoints. Fever’s market team will confirm eligibility within 5 business days.
+  </Card>
+  <Card title="Talk to an expert" icon="comments" href="/contact">
+    Schedule a session with our flexibility specialists to scope revenue potential and stacking strategies.
+  </Card>
+</CardGroup>

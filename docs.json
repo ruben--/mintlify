@@ -29,7 +29,13 @@
               "peak-shaving-load-shifting",
               "self-consumption-maximisation",
               "carbon-intensity-optimisation",
-              "backup-resilience-optimisation"
+              "backup-resilience-optimisation",
+              "fcr-d",
+              "fcr-n",
+              "mfrr",
+              "intraday-optimisation",
+              "brp-flex",
+              "ftm-optimisation"
             ]
           },
           {
