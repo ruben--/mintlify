@@ -21,29 +21,55 @@
           },
           {
             "group": "Savings Pack",
+            "icon": "piggy-bank",
             "pages": [
-              "savings-pack",
-              "smart-charging",
-              "magic-charging",
-              "stoploss",
-              "time-of-use-tariff-optimisation",
-              "peak-shaving-load-shifting",
-              "self-consumption-maximisation",
-              "real-time-wholesale-price-arbitrage",
-              "carbon-intensity-optimisation",
-              "backup-resilience-optimisation"
+              {
+                "group": "Cut your energy bill",
+                "icon": "scissors",
+                "pages": [
+                  "savings-pack",
+                  "smart-charging",
+                  "magic-charging",
+                  "stoploss",
+                  "time-of-use-tariff-optimisation"
+                ]
+              },
+              {
+                "group": "Use what you generate",
+                "icon": "house",
+                "pages": [
+                  "peak-shaving-load-shifting",
+                  "self-consumption-maximisation",
+                  "backup-resilience-optimisation",
+                  "carbon-intensity-optimisation"
+                ]
+              }
             ]
           },
           {
             "group": "Earnings Pack",
+            "icon": "line-chart",
             "pages": [
               "earnings-pack",
-              "fcr-d",
-              "fcr-n",
-              "mfrr",
-              "intraday-optimisation",
-              "brp-flex",
-              "ftm-optimisation"
+              {
+                "group": "Get paid for stability",
+                "icon": "activity",
+                "pages": [
+                  "fcr-d",
+                  "fcr-n",
+                  "mfrr"
+                ]
+              },
+              {
+                "group": "Trade on price swings",
+                "icon": "arrows-up-down",
+                "pages": [
+                  "real-time-wholesale-price-arbitrage",
+                  "intraday-optimisation",
+                  "brp-flex",
+                  "ftm-optimisation"
+                ]
+              }
             ]
           }
         ]
