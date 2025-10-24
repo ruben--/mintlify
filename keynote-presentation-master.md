@@ -19,13 +19,10 @@
 │     • V2G capabilities          │     • Public chargers           │
 │     • Home chargers             │     • 8-12+ vehicle fleets      │
 │                                 │                                 │
-├─────────────────────────────────┼─────────────────────────────────┤
-│                                 │                                 │
-│    💰 EARNINGS & SAVINGS        │    💰 EARNINGS & SAVINGS        │
-│                                 │                                 │
-│    Savings: 25,000-30,000 SEK/yr│    Savings: 760,000+ SEK/yr     │
-│    Earnings: 44,200-52,000 SEK/yr│   Earnings: 446,250+ SEK/yr    │
-│    Total Value: 70,000-80,000 SEK│   Total Value: 1.2M+ SEK       │
+│     💰 AUTOMATED OPTIMIZATION   │     💰 AUTOMATED OPTIMIZATION   │
+│     • Significant cost savings  │     • Substantial cost reduction│
+│     • Revenue generation        │     • Revenue generation        │
+│     • Bill predictability       │     • Peak demand management    │
 │                                 │                                 │
 └─────────────────────────────────┴─────────────────────────────────┘
 ```
@@ -45,20 +42,20 @@
 **Home Batteries**
 - Brands: Tesla Powerwall, SolarEdge, LG Chem, Sonnen, BYD, Enphase, Huawei, Fronius, Ferroamp
 - Typical size: 10-30 kWh
-- Revenue potential: 15,000-55,000 SEK/year per 10 kWh
+- Capable of grid services and arbitrage
 
 **Solar Panels**
 - All major inverter brands supported
-- Self-consumption: 80-95% vs 35-45% unoptimized
+- Self-consumption optimization
 - Export optimization during price spikes
 
 **HVAC & Heat Pumps**
 - Smart scheduling around price curves
 - Thermal mass optimization
-- 49% cost reduction on heating/cooling
+- Significant cost reduction on heating/cooling
 
 ### The Pain Points
-- Monthly bills swinging wildly (1,800-4,500 SEK)
+- Monthly bills swinging wildly
 - Exporting solar for pennies, buying back at premium
 - Manual optimization is complex and time-consuming
 - Underutilized battery sitting idle
@@ -66,30 +63,24 @@
 ### What Fever Delivers
 
 **SAVINGS PACK: Behind-the-Meter Optimization**
-- **Self-Consumption Maximization:** Use 80-95% of your own solar
-- **Time-of-Use Optimization:** 30-70% lower costs on flexible loads
+- **Self-Consumption Maximization:** Maximize use of your own solar
+- **Time-of-Use Optimization:** Significantly lower costs on flexible loads
 - **Peak Shaving:** Eliminate peak demand charges
 - **StopLoss Protection:** Prevents losses during negative pricing
 
 **EARNINGS PACK: Front-of-Meter Revenue**
-- **FCR-D Grid Services:** 12,000-45,000 SEK/year per 10 kWh
-- **Arbitrage Trading:** 8,000-25,000 SEK/year per 10 kWh
-- **Multi-Market Optimization:** +53% to +240% vs single-service strategies
+- **FCR-D Grid Services:** Frequency regulation revenue
+- **Arbitrage Trading:** Wholesale market optimization
+- **Multi-Market Optimization:** Superior performance vs single-service strategies
 
-### Real Results: 15 kWh Battery System
+### Real Results: Home Battery System
 
-**The Andersson Family, Göteborg**
-- Setup: 15 kWh battery + 8 kW solar + heat pump
-- **Savings Pack:** 25,200 SEK/year
-- **Earnings Pack:** 52,400 SEK/year
-- **Combined Value:** 77,600 SEK/year
-- Bill predictability: ±8% variance (was ±150%)
-- Payback: Less than 11 months
-
-**Daily Economics (Complete Home)**
-- Without optimization: 78.12 SEK/day
-- With Fever: 7.85 SEK net (after export)
-- **Daily savings: 70.27 SEK (90% reduction)**
+**Example: Complete Home Setup**
+- Setup: Battery + solar + heat pump
+- **Dramatic bill reduction**
+- **Significant revenue generation**
+- Bill predictability: Stable vs highly volatile before
+- Quick return on investment
 
 ---
 
@@ -124,32 +115,26 @@
 
 **Smart Charging**
 - **What it does:** Automatically charges during cheapest overnight hours
-- **Value:** 50-75% reduction in charging costs
-- **Numbers:**
-  - Cost per charge: 90 SEK → 22 SEK
-  - Monthly savings: 1,350-1,476 SEK
-  - Annual savings: 15,000-20,000 SEK
+- **Value:** Substantial reduction in charging costs
+- Zero manual intervention required
 
 **Magic Charging (V2G)**
 - **What it does:** Optimizes between cheap charging OR earning from grid services
-- **Value:** Save on charging OR earn 200-600 SEK/week
-- **Numbers:**
-  - Monthly net position: +95 SEK (you got PAID to charge)
-  - Grid service earnings: 480 SEK/month
-  - 450 SEK/month better than smart charging alone
-  - Annual advantage: +4,284 SEK vs Smart Charging
+- **Value:** Save on charging OR earn from grid services
+- Potential to offset charging costs entirely
+- "You got paid to charge your car"
 
 ### Real Results
 
 **Standard EV Charging**
-- Annual savings: 13,000-17,000 SEK
-- Cost reduction: 76%
+- Significant cost reduction
 - Zero manual intervention
+- Consistent savings
 
 **Magic Charging (V2G)**
-- Additional 4,284 SEK/year beyond smart charging
-- Monthly earnings: +95 SEK net (earnings exceed charging costs)
-- Testimonial: "You got paid to charge your car"
+- Additional value beyond smart charging
+- Potential for positive net position (earnings exceed charging costs)
+- True vehicle-to-grid optimization
 
 ---
 
@@ -165,12 +150,12 @@
 **Commercial Batteries**
 - Size: 30 kWh to utility-scale (200+ kWh)
 - Multi-market optimization across FCR-D, FCR-N, mFRR, arbitrage
-- Annual revenue: 525,000-682,000 SEK (100-200 kWh)
+- Significant revenue potential
 
 **Solar Arrays**
 - Rooftop commercial installations
 - Coordinated with battery storage and building loads
-- Significant carbon footprint reduction (-28%)
+- Significant carbon footprint reduction
 
 **Building Management Systems**
 - HVAC coordination across multiple zones
@@ -188,38 +173,37 @@
 
 **SAVINGS PACK: Behind-the-Meter Optimization**
 - **Peak Demand Management:** Eliminate/reduce demand charges
-- **Load Shifting:** 42-49% reduction in energy costs
+- **Load Shifting:** Substantial reduction in energy costs
 - **Building Optimization:** Coordinated HVAC and load scheduling
-- **Carbon Reduction:** -28% footprint reduction
+- **Carbon Reduction:** Significant footprint reduction
 
 **EARNINGS PACK: Front-of-Meter Revenue**
-- **FCR-N Grid Services:** 15,000-55,000 SEK/year per 10 kWh (≥50 kW systems)
-- **FCR-D Grid Services:** 12,000-45,000 SEK/year per 10 kWh
-- **mFRR Services:** 5,000-18,000 SEK/year per 10 kWh (100+ kWh systems)
-- **Wholesale Arbitrage:** 8,000-25,000 SEK/year per 10 kWh
+- **FCR-N Grid Services:** Frequency regulation (≥50 kW systems)
+- **FCR-D Grid Services:** Disturbance reserve
+- **mFRR Services:** Manual frequency restoration (100+ kWh systems)
+- **Wholesale Arbitrage:** Market-based trading
 - **Multi-Market Optimization:** Dynamically switches between revenue streams
 
 ### Real Results
 
-**Nordic Retail AB**
+**Retail Customer Example**
 - **Savings Pack Performance:**
-  - Quarterly savings: 186,000 SEK
-  - Cost reduction: 42%
-  - Carbon footprint: -28%
-  - ROI: Positive in 6 weeks
+  - Substantial quarterly savings
+  - Major cost reduction
+  - Significant carbon footprint reduction
+  - Quick ROI
 
-**GreenTech Logistics AB (200 kWh Battery)**
+**Logistics Customer Example (Large Battery)**
 - **Earnings Pack Performance:**
-  - Annual revenue: 682,000 SEK
-  - Revenue per kWh: 3,410 SEK/kWh/year
-  - Service mix: FCR-N (50%), FCR-D (30%), Arbitrage (20%)
-  - ROI: Positive in 8 months
+  - Significant annual revenue
+  - Service mix: FCR-N, FCR-D, Arbitrage
+  - Fast ROI
 
-**100 kWh System (Combined)**
-- Savings Pack: 760,000+ SEK/year
-- Earnings Pack: 446,250 SEK/year (after fees)
-- **Total annual value: 1.2M+ SEK**
-- Battery ROI: 8-11 months typical
+**Large System (Combined Packs)**
+- Substantial savings from behind-the-meter optimization
+- Significant earnings from front-of-meter services
+- **Total value: Transformative for energy P&L**
+- Rapid battery ROI
 
 ---
 
@@ -268,11 +252,10 @@
 
 ### Real Results
 
-**12-Vehicle Fleet Example**
-- **Quarterly savings:** 48,600 SEK
-- **Annual savings:** 194,000+ SEK
-- **Cost reduction:** 68%
-- **Payback:** 4-6 months typical
+**Multi-Vehicle Fleet Example**
+- **Substantial savings** on charging costs
+- **Significant cost reduction**
+- **Quick payback**
 
 **Operational Benefits**
 - Zero manual scheduling required
@@ -300,32 +283,28 @@
 - **What it is:** Battery stands ready for grid emergencies
 - **Who it's for:** Batteries ≥10 kW, <1 second response time
 - **How you earn:** Paid for availability whether activated or not
-- **Revenue:** 12,000-45,000 SEK/year per 10 kWh
-- **Example:** 20 kWh battery = 59,558 SEK/year
+- Strong revenue potential
 
 **2. FCR-N (Frequency Containment Reserve - Normal)**
 - **What it is:** Continuous automatic frequency regulation (50 Hz)
 - **Who it's for:** Utility-scale/commercial batteries ≥50 kW
 - **How you earn:** Guaranteed capacity payments + energy settlement
-- **Revenue:** 15,000-55,000 SEK/year per 10 kWh
-- **Example:** 100 kW battery = 14,300 SEK/month
+- Substantial revenue stream
 
 **3. mFRR (Manual Frequency Restoration Reserve)**
 - **What it is:** Manual dispatch for frequency restoration
 - **Who it's for:** Commercial batteries 100+ kWh
-- **Revenue:** 5,000-18,000 SEK/year per 10 kWh
 - **High activation payments when called**
 
 **4. Real-Time Wholesale Arbitrage**
 - **What it does:** Buy low, sell high automatically
-- **How it works:** Charge at night (0.32 kr/kWh), discharge at peak (2.48 kr/kWh)
-- **Revenue:** 8,000-25,000 SEK/year per 10 kWh
-- **Example:** 15 kWh battery = 9,290 SEK/year from arbitrage alone
+- **How it works:** Charge at night (low prices), discharge at peak (high prices)
+- Additional revenue stream
 
 **5. Intraday Optimization**
 - **What it does:** Captures unexpected price spikes in real-time
 - **Value:** Pivots strategy mid-day when opportunities emerge
-- **Bonus:** Extra 0.20 kr/kWh on opportunistic trades
+- Maximizes every trading opportunity
 
 ---
 
@@ -336,42 +315,37 @@
 - **Dynamically switches between revenue streams hour-by-hour**
 - **Proprietary optimization engine**
 
-**Example 24-hour revenue (20 kWh battery):**
-- **With MMO:** 129.91 SEK
-- vs FCR-N only: 84.67 SEK (35% less)
-- vs FCR-D only: 71.82 SEK (45% less)
-- vs Arbitrage only: 38.20 SEK (71% less)
+**Performance Advantage:**
+- Significantly higher revenue than single-service strategies
+- Dynamic allocation across FCR-N, FCR-D, and Arbitrage
+- Maximizes every opportunity
 
-**MMO Advantage: +53% to +240% higher revenue** than single-service strategies
+**MMO delivers superior performance** compared to static market strategies
 
 ---
 
 ### Real Results by Battery Size
 
-**Residential: 15 kWh Battery**
-- Annual earnings: 52,400 SEK (after 15% fee)
-- Primary source: FCR-D (65%)
-- Secondary: Arbitrage (35%)
-- Monthly net: 4,367 SEK
-- Payback: 11 months
+**Residential: Small-to-Medium Battery**
+- Strong annual earnings
+- Primary source: FCR-D and Arbitrage
+- Consistent monthly revenue
+- Attractive return on investment
 
-**Mid-Size: 20 kWh Battery**
+**Mid-Size Battery**
 - Stacking FCR-D + Arbitrage
-- Daily revenue: 64.56 SEK
-- Monthly revenue: 1,937 SEK
-- Annual revenue: 23,564 SEK
+- Daily revenue generation
+- Reliable monthly income
 
-**Commercial: 100 kWh Battery**
-- Annual revenue: 446,250 SEK (after fees)
-- Monthly net: 37,188 SEK
-- Service mix: FCR-N (40%), FCR-D (35%), Arbitrage (25%)
-- ROI: Positive in 8-10 months
+**Commercial: Large Battery**
+- Substantial annual revenue
+- Service mix: FCR-N, FCR-D, Arbitrage
+- Quick ROI
 
-**Large Commercial: 200 kWh Battery**
-- Annual revenue: 682,000 SEK
-- Revenue per kWh: 3,410 SEK/kWh/year
-- Service mix: FCR-N (50%), FCR-D (30%), Arbitrage (20%)
-- ROI: Positive in 8 months
+**Large Commercial: Utility-Scale Battery**
+- Significant annual revenue
+- Multi-market service mix
+- Fast ROI
 
 ---
 
@@ -398,21 +372,21 @@
 
 **1. Self-Consumption Maximization (Solar + Battery)**
 - **What it does:** Stores excess solar, runs loads during sunny hours
-- **Value:** Use 80-95% of your own solar (vs 35-45% unoptimized)
+- **Value:** Maximize use of your own solar vs grid imports
 - **Benefits:** Keep solar power instead of exporting for pennies
-- **Example:** Save 1,200+ SEK/month on avoided grid imports
+- Substantial savings on avoided grid imports
 
 **2. Time-of-Use Tariff Optimization**
 - **What it does:** Shifts household/facility consumption to cheapest off-peak windows
-- **Value:** 30-70% lower costs on flexible loads
+- **Value:** Significantly lower costs on flexible loads
 - **How it works:** Automated scheduling of appliances, heat pumps, EV charging, HVAC
-- **Example:** Heat pump runs during 0.32 kr/kWh night hours vs 2.48 kr/kWh peak
+- Runs loads during low-price hours vs high-price peak periods
 
 **3. Peak Shaving & Load Shifting**
 - **What it does:** Flattens demand spikes to avoid peak fees
 - **Value:** Reduce/eliminate peak demand charges
-- **Residential:** Avoid 450 SEK/month in demand penalties
-- **Commercial:** Save 186,000 SEK/quarter on demand charges
+- **Residential:** Avoid demand penalties
+- **Commercial:** Substantial quarterly savings on demand charges
 
 **4. Backup & Resilience**
 - **What it does:** Maintains reserve capacity for power outages
@@ -422,92 +396,66 @@
 **5. StopLoss Protection**
 - **What it does:** Prevents losses during negative pricing events
 - **Value:** Protects solar investment from market penalties
-- **Example:** Auto-curtails export when prices go negative
+- Auto-curtails export when prices go negative
 
 ---
 
 ### Real Results by Customer Type
 
-**Residential: The Andersson Family, Göteborg**
-- Setup: 15 kWh battery + 8 kW solar + heat pump
-- Monthly savings: 2,100 SEK
-- Annual savings: 25,200 SEK
-- Bill predictability: ±8% variance (was ±150%)
-- Payback: Less than 2 months
+**Residential: Family Home Example**
+- Setup: Battery + solar + heat pump
+- Significant monthly and annual savings
+- Bill predictability: Stable vs highly volatile before
+- Quick payback
 
 **Residential: Complete Home (Solar + Battery + Heat Pump + EV)**
-- Without optimization: 78.12 SEK/day
-- With Savings Pack: 7.85 SEK net (after export revenue)
-- **Daily savings: 70.27 SEK**
-- **Annual savings: 25,650 SEK**
-- **Cost reduction: 90%**
+- Dramatic daily cost reduction
+- Substantial annual savings
+- **Major cost reduction (near elimination of net costs)**
 
-**Commercial: Nordic Retail AB**
-- Quarterly savings: 186,000 SEK
-- Annual savings: 744,000 SEK
-- Cost reduction: 42%
-- Carbon footprint: -28%
-- ROI: Positive in 6 weeks
+**Commercial: Retail Customer**
+- Substantial quarterly and annual savings
+- Significant cost reduction
+- Carbon footprint reduction
+- Quick ROI
 
-**Commercial: 100 kWh System**
-- Quarterly savings: 200,000 SEK
-- Annual benefit: 760,000+ SEK
+**Commercial: Large System**
+- Major quarterly savings
+- Substantial annual benefit
 - Peak demand elimination
-- Load factor improvement: 35% → 78%
+- Significant load factor improvement
 
 ---
 
 ### EV Charging Optimization (Part of Savings Pack)
 
 **Smart Charging (Standard EVs)**
-- Cost per charge: 90 SEK → 22 SEK
-- Monthly savings: 1,350-1,476 SEK
-- Annual savings: 15,000-20,000 SEK
-- Cost reduction: 50-75%
+- Dramatic cost reduction per charge
+- Substantial monthly and annual savings
+- Major cost reduction percentage
 
 **Magic Charging (V2G-capable EVs)**
-- Monthly net position: +95 SEK (earnings exceed costs)
-- Grid service earnings: 480 SEK/month
-- 450 SEK/month better than smart charging
-- Annual advantage: +4,284 SEK vs Smart Charging
+- Potential for positive net position (earnings exceed costs)
+- Grid service earnings offset charging costs
+- Superior performance vs standard smart charging
 
-**Fleet (12 vehicles)**
-- Quarterly savings: 48,600 SEK
-- Annual savings: 194,000+ SEK
-- Cost reduction: 68%
+**Fleet (Multiple Vehicles)**
+- Substantial quarterly and annual savings
+- Significant cost reduction
 
 ---
 
 ### The Predictability Factor
 
 **Before Fever:**
-- Monthly bill variance: ±150%
-- Bills swing: 1,800-4,500 SEK
+- High monthly bill variance
+- Bills swing wildly
 - Unpredictable, stressful
 
 **After Fever:**
-- Monthly bill variance: ±8%
+- Low monthly bill variance
 - Stable, predictable costs
 - Peace of mind
-
----
-
-### Pricing Alignment (Win-Win Model)
-
-**Residential Savings Pack**
-- Setup: 2,990 SEK (one-time)
-- Monthly: 199 SEK
-- **Typical payback: 2-3 months**
-
-**Residential Earnings Pack**
-- Setup: 4,990 SEK (one-time)
-- Revenue share: 15% (only earn when you earn)
-- **Typical payback: 8-11 months**
-
-**Commercial**
-- Custom pricing
-- Typically 10-20% revenue share
-- **ROI: 6-12 months**
 
 ---
 
@@ -538,50 +486,7 @@
 
 ---
 
-## SLIDE 9: THE FINANCIAL CASE - SUMMARY
-
-### Residential Value Stacking (15 kWh Battery)
-
-| Package | Annual Value | Monthly Cost | Net Annual Value |
-|---------|--------------|--------------|------------------|
-| **Savings Pack Only** | 25,000-30,000 SEK | 2,388 SEK | 22,612-27,612 SEK |
-| **Earnings Pack Only** | 52,000 SEK | ~7,800 SEK (15% rev share) | 44,200 SEK |
-| **Combined** | **70,000-80,000 SEK** | ~10,188 SEK | **60,000-70,000 SEK** |
-
-### Commercial Value Stacking (100 kWh Battery)
-
-| Package | Annual Value | Est. Cost | Net Annual Value |
-|---------|--------------|-----------|------------------|
-| **Savings Pack** | 760,000 SEK | Custom | ~680,000 SEK |
-| **Earnings Pack** | 525,000 SEK | ~78,750 SEK (15%) | 446,250 SEK |
-| **Combined** | **1,285,000 SEK** | ~78,750 SEK | **1,200,000+ SEK** |
-
-### EV Charging Value
-
-| Type | Annual Savings | Cost | Net Value |
-|------|----------------|------|-----------|
-| **Smart Charging** | 15,000-20,000 SEK | 2,388 SEK/yr | 12,612-17,612 SEK |
-| **Magic Charging (V2G)** | 20,000+ SEK + earnings | 2,388 SEK/yr | 17,612+ SEK |
-| **Fleet (12 vehicles)** | 194,000 SEK | Custom | 170,000+ SEK |
-
----
-
-## SLIDE 10: PROOF POINTS FOR PRESENTATIONS
-
-**Use These Testimonial-Ready Stats:**
-
-- "**90% bill reduction**" (complete home example: 78.12 SEK → 7.85 SEK/day)
-- "**From -3,800 SEK to -1,200 SEK monthly**" (residential net cost improvement)
-- "**682,000 SEK annual revenue from 200 kWh battery**" (commercial earnings)
-- "**ROI positive in 6-8 weeks**" (commercial savings pack)
-- "**76% charging cost reduction**" (EV smart charging: 90 SEK → 22 SEK per charge)
-- "**You got paid to charge your car**" (Magic Charging testimonial, +95 SEK net monthly)
-- "**±8% bill variance vs ±150% before**" (predictability metric)
-- "**+240% higher revenue**" (MMO vs single-service arbitrage)
-
----
-
-## SLIDE 11: CALL TO ACTION
+## SLIDE 9: CALL TO ACTION
 
 ### For Residential Customers
 **"End energy bill shock. Start earning from your assets."**
@@ -589,10 +494,10 @@
 **Next Steps:**
 1. Free consultation and asset assessment
 2. Custom savings + earnings projection
-3. One-time setup (2,990-4,990 SEK)
-4. Start saving/earning within 48 hours
+3. Simple onboarding process
+4. Start saving/earning within days
 
-**Risk-Free:** Cancel anytime. Only earn when you earn (Earnings Pack).
+**Risk-Free:** Flexible terms. Performance-based pricing for Earnings Pack.
 
 ---
 
@@ -605,7 +510,7 @@
 3. Turnkey installation and compliance handling
 4. Measurable results within first quarter
 
-**Typical Timeline:** ROI positive in 6-12 months.
+**Fast ROI:** Proven track record of quick returns.
 
 ---
 
