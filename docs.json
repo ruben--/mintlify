@@ -25,31 +25,30 @@
             "pages": [
               "savings-pack",
               {
-                "group": "Smart bill control",
-                "icon": "gauge",
+                "group": "For EV Owners",
+                "icon": "plug-zap",
                 "pages": [
                   "smart-charging",
-                  "time-of-use-tariff-optimisation"
+                  "magic-charging"
                 ]
               },
               {
-                "group": "Solar & storage",
+                "group": "For Solar & Battery Owners",
                 "icon": "sun",
                 "pages": [
                   "self-consumption-maximisation",
+                  "time-of-use-tariff-optimisation",
                   "peak-shaving-load-shifting",
                   "backup-resilience-optimisation"
                 ]
               },
               {
-                "group": "Protection & sustainability",
+                "group": "Protection Features",
                 "icon": "shield",
                 "pages": [
-                  "stoploss",
-                  "carbon-intensity-optimisation"
+                  "stoploss"
                 ]
-              },
-              "magic-charging"
+              }
             ]
           },
           {
@@ -58,8 +57,8 @@
             "pages": [
               "earnings-pack",
               {
-                "group": "Grid balancing",
-                "icon": "activity",
+                "group": "Grid Earnings",
+                "icon": "radio-tower",
                 "pages": [
                   "fcr-d",
                   "fcr-n",
@@ -67,13 +66,12 @@
                 ]
               },
               {
-                "group": "Market trading",
-                "icon": "trending-up",
+                "group": "Trading Earnings",
+                "icon": "chart-candlestick",
                 "pages": [
                   "real-time-wholesale-price-arbitrage",
                   "intraday-optimisation",
-                  "brp-flex",
-                  "ftm-optimisation"
+                  "brp-flex"
                 ]
               }
             ]
