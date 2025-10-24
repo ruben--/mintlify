@@ -21,7 +21,7 @@
           },
           {
             "group": "Savings Pack",
-            "icon": "piggy-bank",
+            "icon": "wallet",
             "pages": [
               "savings-pack",
               {
@@ -53,12 +53,12 @@
           },
           {
             "group": "Earnings Pack",
-            "icon": "line-chart",
+            "icon": "chart-line",
             "pages": [
               "earnings-pack",
               {
                 "group": "Grid Earnings",
-                "icon": "tower-broadcast",
+                "icon": "tower-cell",
                 "pages": [
                   "fcr-d",
                   "fcr-n",
@@ -67,7 +67,7 @@
               },
               {
                 "group": "Trading Earnings",
-                "icon": "chart-line",
+                "icon": "arrow-trend-up",
                 "pages": [
                   "real-time-wholesale-price-arbitrage",
                   "intraday-optimisation",
