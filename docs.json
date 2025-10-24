@@ -26,7 +26,7 @@
               "savings-pack",
               {
                 "group": "For EV Owners",
-                "icon": "plug-zap",
+                "icon": "plug",
                 "pages": [
                   "smart-charging",
                   "magic-charging"
@@ -58,7 +58,7 @@
               "earnings-pack",
               {
                 "group": "Grid Earnings",
-                "icon": "radio-tower",
+                "icon": "tower-broadcast",
                 "pages": [
                   "fcr-d",
                   "fcr-n",
@@ -67,7 +67,7 @@
               },
               {
                 "group": "Trading Earnings",
-                "icon": "chart-candlestick",
+                "icon": "chart-line",
                 "pages": [
                   "real-time-wholesale-price-arbitrage",
                   "intraday-optimisation",
